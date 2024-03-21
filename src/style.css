@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root{
+    background-color: black;
+    max-width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(98, 99, 116);
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+.operator{
+    background-color: orange;
+}
