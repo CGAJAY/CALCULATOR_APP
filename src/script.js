@@ -12,3 +12,9 @@ function getAnswer(){
     answer = eval(problem);
     display.innerHTML = answer
 };
+
+function reset() {
+    results = 0;
+    problem = 0; 
+    display.innerHTM = 0;
+};
