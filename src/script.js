@@ -11,6 +11,7 @@ function calculation(num){
 function getAnswer(){
     answer = eval(problem);
     display.innerHTML = answer;
+    problem = answer;
 };
 
 function reset() {
