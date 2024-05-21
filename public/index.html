@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="output.css">
+	<script src="https://kit.fontawesome.com/6b4ba4da31.js" crossorigin="anonymous"></script>
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="w-72 p-4 mx-auto bg-black text-white text-2xl">
+		<div class="bg-transparent h-20 mb-3 flex justify-end items-center" id="display"></div>
+		<div class="pl-6">
+			<div class="mb-3">
+				<button class="bg-gray-200 btn text-black btn-js">C</button>
+				<button class="bg-gray-200 btn text-black" id="delete">
+					<i class="fa-solid fa-delete-left"></i>
+				</button>
+				<button class="bg-gray-200 btn text-black btn-js">%</button>
+				<button class="bg-orange-400 btn btn-js">/</button>
+			</div>
+			<div class="mb-3">
+				<button class="btn bg-gray-500 btn-js">7</button>
+				<button class="btn bg-gray-500 btn-js">8</button>
+				<button class="btn bg-gray-500 btn-js">9</button>
+				<button class="btn bg-orange-400 btn-js">*</button>
+			</div>
+			<div class="mb-3">
+				<button class="btn bg-gray-500 btn-js">4</button>
+				<button class="btn bg-gray-500 btn-js">5</button>
+				<button class="btn bg-gray-500 btn-js">6</button>
+				<button class="btn bg-orange-400 btn-js">-</button>
+			</div>
+			<div class="mb-3">
+				<button class="btn bg-gray-500 btn-js">1</button>
+				<button class="btn bg-gray-500 btn-js">2</button>
+				<button class="btn bg-gray-500 btn-js">3</button>
+				<button class="btn bg-orange-400 btn-js">+</button>
+			</div>
+			<div class="mb-3">
+				<button class="w-24 mr-0.5 rounded-3xl h-12 bg-gray-500 btn-js">0</button>
+				<button class="btn bg-gray-500 btn-js">.</button>
+				<button class="btn bg-orange-400 btn-js">=</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
